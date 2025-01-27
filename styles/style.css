@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Joti+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+body {
+    position: fixed;
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    backdrop-filter: blur(3px);
+   }
+
+.main-container {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.pickup-main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin-left: 40px;
+    height: 132px;
+    width: 300px;
+    background-color: rgb(217, 217, 217);
+    border-radius: 15px;
+    transform: rotate(-10deg)
+}
+
+
+.pickup-text {
+    font-family: "Langar", serif;
+    color: rgb(153, 23, 114);
+    width: 97%;
+    text-align:center;
+    margin: auto;
+    font-size: 24px;
+
+}
+
+.pickup-master-container {
+    position: relative;
+    width: 400px;
+    top: 160px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.gen-button {
+    height: 35px;
+    color: rgb(225, 213, 213);
+    background-color: rgb(248, 53, 100);
+    border-style: bold;
+    border: none;
+    border-radius: 60px;
+    font-weight: bolder;
+    font-size: 24px;
+    position:absolute; 
+    top:116.4px; 
+    cursor: pointer;
+    transition: color 0.15s, font-size 0.15s;
+}
+
+.master {
+    display: flex;
+    position: relative;
+    width: fit-content;
+}
+
+.line-1 {
+    border-left: 2px solid black;
+    opacity: 35%;
+    height: 200px;
+    left: 10px;
+    margin-left: 80px;
+    position:absolute; 
+    top: 0px;
+    transform: rotate(9deg)
+}
+
+.line-2 {
+    border-left: 2px solid black;
+    opacity: 35%;
+    height: 230px;
+    left: 170px;
+    margin-left: 80px;
+    position:absolute; 
+    top: 0px;
+    transform: rotate(-7deg)
+}
+
+.master-2 {
+    display: flex;
+}
+
+.blur-box {
+    margin-top: 35px;
+    margin-left: 110px;
+    height: 575px;
+    width: 330px;
+    background-color: white;
+    opacity: 60%;
+    border-radius: 20px;
+}
+
+.flames-text {
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 10px;
+    text-align:center;
+    margin: auto;
+    font-family: "Joti One", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    letter-spacing: 0.05em;
+    color: #6425A8;
+}
+
+.labels {
+    font-family: "Jua", serif;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+.yname-input {
+    margin: auto;
+    display: block;
+    height: 35px;
+    width: 75%;
+    border: none;
+    border-radius: 20px;
+    background-color: #f5e9e9;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+    font-family: 'Jua';
+    font-size: 17px;
+    font-weight: 600;
+}
+
+
+.ent-button {
+    text-align: center;
+    margin: auto;
+    display: block;
+    margin-top: 15px;
+    font-family: "Jua";
+    width: 90px;
+    height: 35px;
+    font-size: large;
+    border-radius: 15px;
+    color:#6425A8;
+    border-style: solid;
+    border-width: 1.5px;
+    cursor: pointer;
+    transition: border-width 0.10s, opacity 0.15s;
+    border-color: #6425A8;
+}
+
+.ent-button:hover {
+    border-width: 2px;
+}
+
+.gen-button:hover {
+    color: white;
+    font-size: 24.3px;
+}
+
+.label-2 {
+    font-family: "Jua", serif;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+.result {
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 10px;
+    text-align:center;
+    margin: auto;
+    font-family: "Joti One", serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 45px;
+    letter-spacing: 0.02em;
+    color: #25a862;
+}
+
+.label-3 {
+    font-family: "Jua", serif;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 2px;
+}
+
+.label-4 {
+    font-family: "Jua", serif;
+    font-size: 17px;
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
